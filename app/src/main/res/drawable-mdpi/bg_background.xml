@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="rectangle">
+    <!--指定圆角矩形4个圆角的半径-->
+    <corners android:topLeftRadius="20px"
+        android:topRightRadius="20px"
+        android:bottomLeftRadius="20px"
+        android:bottomRightRadius="20px"/>
+    <!-- 
+    <gradient android:startColor="#f00"
+        android:centerColor="#0f0"
+        android:endColor="#00f"
+        android:type="sweep"/>
+         -->
+         <solid android:color="#33a3dc"/>
+    
+
+</shape>

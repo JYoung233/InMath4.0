@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/hr"
+	>
+
+	
+
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    >
+            <ImageView 
+                 android:id="@+id/imnoteview1"
+                android:layout_alignParentLeft="true"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/imnoteview1"/>
+   			<TextView
+   			        android:id="@+id/title"
+			        android:layout_width="127dp"
+			        android:layout_height="49dp"
+			        android:layout_toRightOf="@+id/imnoteview1"
+			        android:layout_alignBottom="@+id/imnoteview1"
+			        android:textColor="#343434"
+			        android:textSize="35px" />
+  		 </RelativeLayout>
+	
+		<ScrollView
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:paddingBottom="5px"
+		    android:paddingLeft="17px"
+		    android:paddingRight="17px" >
+			
+			<LinearLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical" >
+              
+				
+			 <RelativeLayout 
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="20dp"
+			     >
+                <ImageView
+                    android:layout_alignParentLeft="true"
+                    android:id="@+id/imnoteview3"
+                    android:layout_alignParentTop="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/imnoteview3"/>
+                
+                 
+			    <TextView
+			        android:id="@+id/text"
+			        android:layout_below="@+id/imnoteview3"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textColor="#343434"
+			        android:textSize="30px" 
+			       />
+			     <ImageView
+			       
+			       android:id="@+id/pic1"
+			       android:layout_centerInParent="true"
+				    
+				    android:layout_below="@+id/text"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"></ImageView>
+				  <TextView 
+				      android:id="@+id/im"
+				      android:layout_width="wrap_content"
+				      android:layout_height="wrap_content"
+				      android:layout_below="@+id/pic1"/>
+				   <ImageView 
+			       
+                    android:id="@+id/imnoteview2"
+                   
+                   android:layout_below="@+id/im"
+                   android:layout_alignParentRight="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/imnoteview2"
+			        />
+			       </RelativeLayout>
+				   <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+       
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+		<ImageButton
+		    android:id="@+id/home"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_marginLeft="20dp"
+		    android:background="#0000"
+		    android:src="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            
+            android:background="#0000"
+            android:src="@drawable/share"
+            android:layout_marginLeft="20dp"
+            />
+
+</LinearLayout>
+			
+			      
+			     
+			     
+			    
+			
+			     
+			</LinearLayout>
+			
+		</ScrollView>
+		
+		
+	
+		
+		 
+</LinearLayout>

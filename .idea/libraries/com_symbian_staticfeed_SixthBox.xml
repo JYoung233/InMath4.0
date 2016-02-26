@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.symbian.staticfeed.SixthBox">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/com.symbian.staticfeed.SixthBox.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

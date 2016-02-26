@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_gravity="center_horizontal"
+ >
+
+    <LinearLayout         
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+   
+          <TextView 
+            android:id="@+id/scoreLayble"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+        	android:paddingLeft="100dp"
+        	android:text="当前分数"
+       
+            />
+        <TextView 
+            android:id="@+id/score"
+            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+        	android:paddingLeft="20dp"
+            />
+        
+        <TextView 
+            android:id="@+id/topScoreLable"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="高分"
+            />
+        <TextView 
+            android:id="@+id/topScore"
+            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+        	android:paddingLeft="20dp"
+            />
+        
+    </LinearLayout>
+    
+    <GridLayout
+        android:id="@+id/GridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#708090"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:clickable="true"
+        android:rowCount="4" >
+
+</GridLayout>
+    
+    <LinearLayout 
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+		>
+       
+    </LinearLayout>
+</LinearLayout>
